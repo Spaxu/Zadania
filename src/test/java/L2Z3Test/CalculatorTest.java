@@ -1,3 +1,5 @@
+package L2Z3Test;
+
 import L2Z3.Calculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
