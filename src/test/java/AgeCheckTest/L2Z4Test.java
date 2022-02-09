@@ -17,4 +17,16 @@ public class L2Z4Test {
         //then
         Assertions.assertTrue(adult);
     }
+    @Test
+    void shouldFalseIfTooYoung() {
+
+        //given
+        int age = 17;
+
+        //when
+        boolean adult = AgeCheck.ageChecker(age);
+
+        //then
+        Assertions.assertFalse(adult);
+    }
 }
