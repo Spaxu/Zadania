@@ -3,7 +3,7 @@ package L3Z1;
 public class CinemaSeats {
     private final int seatNumber;
     private final int seatRow;
-    boolean isFree;
+    private boolean isFree;
 
     public CinemaSeats(int seatNumber, int seatRow, boolean isFree) {
         this.seatNumber = seatNumber;
