@@ -17,7 +17,7 @@ public class EvenOrOddTest {
     }
 
     @Test
-    void shouldTrueIfNumberIsOdd() {
+    void shouldFalseIfNumberIsOdd() {
         //given
         int number = 3;
 
