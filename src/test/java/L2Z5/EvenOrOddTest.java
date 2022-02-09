@@ -15,4 +15,16 @@ public class EvenOrOddTest {
         //then
         Assertions.assertTrue(x);
     }
+
+    @Test
+    void shouldTrueIfNumberIsOdd() {
+        //given
+        int number = 3;
+
+        //when
+        boolean x = EvenOrOdd.checkIfEven(number);
+
+        //then
+        Assertions.assertFalse(x);
+    }
 }
