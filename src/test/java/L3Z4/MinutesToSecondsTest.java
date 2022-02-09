@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class MinutesToSecondsTest {
     @Test
-    void shouldAddTwoValues1and1() {
+    void shouldMultipleMinutesBySixty() {
         //given
         int minutes = 9;
 
