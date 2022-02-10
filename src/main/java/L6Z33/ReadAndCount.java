@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class ReadAndCount {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         try {
             BufferedReader reader =
                     Files.newBufferedReader(Paths.get("C:\\Users\\Spax\\Desktop\\data.txt"));
