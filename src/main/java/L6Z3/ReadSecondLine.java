@@ -8,7 +8,7 @@ public class ReadSecondLine {
         try {
             BufferedReader reader =
                     Files.newBufferedReader(Paths.get("C:\\Users\\Spax\\Desktop\\data.txt"));
-            int count = 0;
+            int count = 1;
             String line;
             while ((line = reader.readLine()) != null) {
                 if (count % 2 == 0) {
