@@ -1,11 +1,8 @@
 package L4Z6;
 
 public class BillCalculator {
-    private double bill;
-    private float service;
-
     public double calculate(double bill, float service) {
-          return bill + service;
+        return bill + service;
     }
 
     public double calculate(double bill, double discount, float service) {
@@ -13,6 +10,6 @@ public class BillCalculator {
     }
 
     public double calculate(double bill, float service, short bag) {
-          return bill + service + bag;
+        return bill + service + bag;
     }
 }
