@@ -10,7 +10,7 @@ public class ReverseTextFromFile {
 
         try {
             BufferedReader reader =
-                    Files.newBufferedReader(Paths.get("C:\\data.txt"));
+                    Files.newBufferedReader(Paths.get("src/main/resources/data.txt"));
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(new StringBuilder(line).reverse());
