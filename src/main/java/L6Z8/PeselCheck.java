@@ -8,6 +8,7 @@ public class PeselCheck {
         if (s.length() != 11) throw new IllegalLengthException("11 numbers. No less, no more");
 
         System.out.println("PESEL: " + pesel);
+
     }
 
 }
