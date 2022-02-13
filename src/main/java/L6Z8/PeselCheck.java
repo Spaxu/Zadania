@@ -1,15 +1,14 @@
 package L6Z8;
 
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-
 public class PeselCheck {
-        public static boolean peselCheck (String pesel){
+    public static void peselCheck(int pesel) {
+        String s = Integer.toString(pesel);
 
-            Pattern pattern = Pattern.compile("\\d{11}");
-            Matcher matcher = pattern.matcher(pesel);
+        if (!s.matches("[0-9]")) throw new WrongTypeException("Only numbers please");
+        if (s.length() != 11) throw new WrongLenghtExcepion("11 numbers. No less, no more");
 
-            return matcher.matches();
-        }
+        System.out.println("PESEL: " + pesel);
     }
+
+}
 
